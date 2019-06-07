@@ -188,7 +188,7 @@ class VideoStitcher:
 
 
 # replace with any video. tested file formats include mp4, avi
-stitcher = VideoStitcher(left_video_in_path='Library_L.avi',
-                         right_video_in_path='Library_R.avi',
-                         video_out_path='Library_output.mp4')
+stitcher = VideoStitcher(left_video_in_path='Library_L_cut.mp4',
+                         right_video_in_path='Library_R_cut.mp4',
+                         video_out_path='Library_output_cut.mp4')
 stitcher.run()
