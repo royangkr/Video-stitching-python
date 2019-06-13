@@ -1,0 +1,1 @@
+streams mjpg to localhost
